@@ -1,0 +1,57 @@
+.gamebutton {
+  flex: 7.5;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5개의 열 생성 */
+  grid-template-rows: repeat(5, 1fr); /* 5개의 행 생성 */
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(215, 215, 215);
+  height: 89px;
+  width: 86px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px rgb(164, 164, 164);
+}
+
+.btn:hover {
+  background-color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: skyblue;
+  cursor: grabbing;
+  box-shadow: -3px -3px 0px rgb(100, 155, 176);
+  transform: scale(0.99);
+  transform: translate(
+    3px,
+    3px /* 쉐도우를 가한 만큼 액티브 상태일 때 움직여주며 동적인 느낌을 가함 */
+  );
+  background-image: radial-gradient(
+    ellipse at 80% 80%,
+    rgba(255, 255, 255, 0.812) 0%,
+    transparent 70%
+      /* 불빛이 중심으로부터 오른쪽 아래에 살짝 치우치듯 들어오는 듯한 효과로 질감 부여 */
+  );
+}
+
+.btn.signal {
+  background-color: skyblue;
+  cursor: grabbing;
+  box-shadow: -3px -3px 0px rgb(100, 155, 176);
+  transform: scale(0.99);
+  transform: translate(
+    3px,
+    3px /* 쉐도우를 가한 만큼 액티브 상태일 때 움직여주며 동적인 느낌을 가함 */
+  );
+  background-image: radial-gradient(
+    ellipse at 80% 80%,
+    rgba(255, 255, 255, 0.812) 0%,
+    transparent 70%
+      /* 불빛이 중심으로부터 오른쪽 아래에 살짝 치우치듯 들어오는 듯한 효과로 질감 부여 */
+  );
+}

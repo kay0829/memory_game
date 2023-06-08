@@ -1,0 +1,56 @@
+.topbar {
+  flex: 0.5;
+  width: 95%;
+  margin-top: 7px;
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .barbutton {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.barbutton:active {
+  transform: scale(0.8);
+  cursor: grabbing;
+} */
+
+.playbtn {
+  /* margin-left: 348px; */
+  /* 협업 프로젝트에 삽입 시, 위의 마진 사용하기 */
+  margin-right: 4px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  border: 0.5px block white;
+  box-shadow: inset 0 0 3px rgba(126, 126, 126, 0.5);
+  background-color: rgb(221, 221, 221);
+  cursor: pointer;
+}
+
+.playbtn:hover {
+  background-color: #f5c907;
+  cursor: pointer;
+}
+
+.playbtn:active {
+  background-color: #f14c4c;
+  cursor: grabbing;
+}
+
+#off {
+  background-color: #f14c4c;
+  box-shadow: 0 0 0 1px #f14c4c;
+  margin-left: 5px;
+  margin-right: 7px;
+}
+
+#min {
+  background-color: #f5c907;
+  box-shadow: 0 0 0 1px #f5c907;
+  margin-right: 7px;
+}

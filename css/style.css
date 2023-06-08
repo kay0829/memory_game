@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 0.5px block white;
+  background-color: rgb(221, 221, 221);
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+  background-color: rgb(241, 241, 241);
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin: 3px;
+}
